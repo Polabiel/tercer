@@ -1,19 +1,18 @@
 <p align="center">
-  <img src="docs/logo.svg" width="200" alt="Securo logo" />
+  <img src="docs/logo.svg" width="200" alt="Tercer logo" />
 </p>
-<h1 align="center">Securo</h1>
+<h1 align="center">Tercer</h1>
 <p align="center">
-  <a href="https://github.com/securo-finance/securo/actions/workflows/ci.yml"><img src="https://github.com/securo-finance/securo/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+  <a href="https://github.com/polabiel/tercer/actions/workflows/ci.yml"><img src="https://github.com/polabiel/tercer/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
   <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/tassionoronha/ae627b744aaa2ba89d850ea541c311be/raw/coverage.json" alt="Coverage" />
   <a href="https://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/License-AGPL--3.0-blue.svg" alt="License: AGPL-3.0" /></a>
   <br />
-  <a href="https://usesecuro.com/">Website</a> · <a href="https://github.com/orgs/securo-finance/projects/2">Roadmap</a>
 </p>
 
 <h3 align="center">Finance apps want your data. This one doesn't.</h3>
 
 <p align="center">
-We believe personal finance should actually be <em>personal</em>. No corporation should sit between you and your financial data. Securo is an open-source finance manager that runs on your own infrastructure, giving you full visibility into your accounts, spending, and habits, without surrendering a single byte to third parties. Take back control.
+We believe personal finance should actually be <em>personal</em>. No corporation should sit between you and your financial data. Tercer is an open-source finance manager that runs on your own infrastructure, giving you full visibility into your accounts, spending, and habits, without surrendering a single byte to third parties. Take back control.
 </p>
 
 ## Quick Start
@@ -21,20 +20,20 @@ We believe personal finance should actually be <em>personal</em>. No corporation
 **Linux & macOS** (installs Docker if needed):
 
 ```bash
-curl -fsSL https://usesecuro.com/install.sh | bash
+curl -fsSL https://useTercer.com/install.sh | bash
 ```
 
 **Windows:** Install [Docker Desktop](https://www.docker.com/products/docker-desktop/), then:
 
 ```bash
-git clone https://github.com/securo-finance/securo.git && cd securo
+git clone https://github.com/polabiel/Tercer.git && cd tercer
 docker compose up --build
 ```
 
 Open [http://localhost:3000](http://localhost:3000) and create an account. That's it.
 
 <p align="center">
-  <img src="docs/screenshot.png" width="800" alt="Securo dashboard" />
+  <img src="docs/screenshot.png" width="800" alt="Tercer dashboard" />
 </p>
 
 ## Features
@@ -91,5 +90,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## License
 
 This project is licensed under the [GNU Affero General Public License v3.0](LICENSE).
+
+Create by [Securo-Finance](https://github.com/securo-finance/securo)
 
 This means you can freely use, modify, and distribute this software, but any modifications — including when used as a network service (SaaS) — must also be released under the AGPL-3.0.
